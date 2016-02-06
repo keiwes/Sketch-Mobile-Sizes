@@ -1,0 +1,16 @@
+var iPhone5Portrait = function(context) {
+	var selection = context.selection  //gets selected objects
+
+  	if ( selection.count() == 0 ) {
+  		var nothingSelected = NSApplication.sharedApplication()
+		nothingSelected.displayDialog_withTitle("Please select something.", "Nothing selected.")
+  	}
+
+  	for(var i=0; i < [selection length]; i++){
+	    var item = selection[i]
+	    var frame = [item frame]
+
+	    [frame setWidth:(320)]
+	    [frame setHeight:(568)]
+	}
+}

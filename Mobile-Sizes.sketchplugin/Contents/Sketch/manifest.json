@@ -1,0 +1,79 @@
+{
+  "author" : "Keith Weston",
+  "commands" : [
+    {
+      "script" : "iPhone5Portrait.cocoascript",
+      "handler" : "iPhone5Portrait",
+      "shortcut" : "",
+      "name" : "iPhone 5 Portrait (320x568)",
+      "identifier" : "iPhone5Portrait"
+    },
+    {
+      "script" : "iPhone5Landscape.cocoascript",
+      "handler" : "iPhone5Landscape",
+      "shortcut" : "",
+      "name" : "iPhone 5 Landscape (568x320)",
+      "identifier" : "iPhone5Landscape"
+    },
+    {
+      "script" : "iPhone6Portrait.cocoascript",
+      "handler" : "iPhone6Portrait",
+      "shortcut" : "",
+      "name" : "iPhone 6 Portrait (375x667)",
+      "identifier" : "iPhone6Portrait"
+    },
+    {
+      "script" : "iPhone6Landscape.cocoascript",
+      "handler" : "iPhone6Landscape",
+      "shortcut" : "",
+      "name" : "iPhone 6 Landscape (667x375)",
+      "identifier" : "iPhone6Landscape"
+    },
+    {
+      "script" : "iPhone6PlusPortrait.cocoascript",
+      "handler" : "iPhone6PlusPortrait",
+      "shortcut" : "",
+      "name" : "iPhone 6+ Portrait (414x736)",
+      "identifier" : "iPhone6PlusPortrait"
+    },
+    {
+      "script" : "iPhone6PlusLandscape.cocoascript",
+      "handler" : "iPhone6PlusLandscape",
+      "shortcut" : "",
+      "name" : "iPhone 6+ Landscape (736x414)",
+      "identifier" : "iPhone6PlusLandscape"
+    },
+    {
+      "script" : "AndroidPortrait.cocoascript",
+      "handler" : "AndroidPortrait",
+      "shortcut" : "",
+      "name" : "Android Portrait (360x640)",
+      "identifier" : "AndroidPortrait"
+    },
+    {
+      "script" : "AndroidLandscape.cocoascript",
+      "handler" : "AndroidLandscape",
+      "shortcut" : "",
+      "name" : "Android Landscape (640x360)",
+      "identifier" : "AndroidLandscape"
+    }
+  ],
+  "menu" : {
+    "items" : [
+      "iPhone5Portrait",
+      "iPhone5Landscape",
+      "iPhone6Portrait",
+      "iPhone6Landscape",
+      "iPhone6PlusPortrait",
+      "iPhone6PlusLandscape",
+      "AndroidPortrait",
+      "AndroidLandscape"
+    ],
+    "title" : "Mobile Sizes"
+  },
+  "identifier" : "com.example.sketch.3bc31c75-9d90-4f3f-a3b6-072c0e31639d",
+  "version" : "1.0",
+  "description" : "Sets artboards or rectangles to mobile sizes.",
+  "authorEmail" : "keith@keiwes.com",
+  "name" : "Mobile Sizes"
+}
